@@ -40,3 +40,5 @@ elif user_choice == 2 and comp_choice == 0:
   print("You Lose")
 elif comp_choice == 0 and comp_choice == 2:
   print("You Win!!!")
+elif comp_choice == user_choice:
+  print("Its a draw!!!")
